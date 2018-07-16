@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_predict"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/predict"
+    tools:context="com.example.saurabhagarwal.stockmarket.Activity.Predict">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+
+            android:background="#0d0d0d"
+            android:hint="Date : dd-mm-yyyy"
+            android:inputType="date"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Spinner
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#121313"
+            android:hint="Previous Close"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="PREDICT"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

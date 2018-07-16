@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="3"
+    android:background="@drawable/dashboard"
+    tools:context="com.example.saurabhagarwal.stockmarket.Activity.Dashboard">
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:text="PREDICTOR"
+        android:background="#901a1616"
+        android:textColor="#fff"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/inv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:background="#901a1616"
+        android:text="INVESTMENT"
+        android:textColor="#fff"
+        android:textSize="45sp"
+        />
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="30dp"
+        android:background="#901a1616"
+        android:text="INFO"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        />
+
+
+
+
+</LinearLayout>

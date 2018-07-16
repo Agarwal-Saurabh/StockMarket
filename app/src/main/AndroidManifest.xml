@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saurabhagarwal.stockmarket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.Dashboard" />
+        <activity android:name=".Activity.Info" />
+        <activity android:name=".Activity.Predict" />
+        <activity
+            android:name=".Activity.About"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Dashboard" />
+        </activity>
+        <activity
+            android:name=".Activity.Contact"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Dashboard" />
+        </activity>
+        <activity android:name=".Activity.Result" />
+        <activity android:name=".Activity.Graph" />
+        <activity android:name=".Activity.Inveestment" />
+        <activity android:name=".Activity.Flexible" />
+        <activity android:name=".Activity.Hard"></activity>
+    </application>
+
+</manifest>

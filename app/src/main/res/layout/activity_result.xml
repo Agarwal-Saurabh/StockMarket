@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stock_market"
+    tools:context="com.example.saurabhagarwal.stockmarket.Activity.Result">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:shrinkColumns="1"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:text="Closing Price"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+        </TableRow>
+<TableRow>
+            <TextView
+                android:id="@+id/result"
+                android:text="313"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp" />
+        </TableRow>
+
+    </TableLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="NEXT"
+        android:layout_weight="1"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="GRAPH"
+        android:layout_weight="1"
+        android:textColor="#fff" />
+</LinearLayout>
+
+</RelativeLayout>

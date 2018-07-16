@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_invest_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/results"
+    tools:context="com.example.saurabhagarwal.stockmarket.Activity.Flexible">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:stretchColumns="*"
+
+        android:layout_centerInParent="true">
+
+        <TableRow>
+            <TextView
+                android:text="Jindal Steel:"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="n1"
+                android:id="@+id/n1"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:text="Reliance Power:"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="n2"
+                android:id="@+id/n2"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Tata Steel:"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="n3"
+                android:id="@+id/n3"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Tech Machindra:"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="n4"
+                android:id="@+id/n4"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Cipla:"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="n5"
+                android:id="@+id/n5"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
